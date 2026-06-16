@@ -1,0 +1,27 @@
+{
+  "name": "analytics-service",
+  "version": "1.0.0",
+  "description": "This service is used to track live updates from resume app",
+  "author": "Shaahil Abraham Kuruvilla",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "geoip-lite": "^2.0.2",
+    "jsonwebtoken": "^9.0.3",
+    "pg": "^8.21.0",
+    "redis": "^6.0.0",
+    "socket.io": "^4.8.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
